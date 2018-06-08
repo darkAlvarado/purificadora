@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "999980991848",
+    "firebase_url": "https://purificadora-fb8d1.firebaseio.com",
+    "project_id": "purificadora-fb8d1",
+    "storage_bucket": "purificadora-fb8d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999980991848:android:9979267633f7f9da",
+        "android_client_info": {
+          "package_name": "com.tab.code.purificadora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999980991848-a7m4n9t740rbdb1lrgda9nm5bn9ut6c7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tab.code.purificadora",
+            "certificate_hash": "bfde0a7b200dfda71c162791615023250971269f"
+          }
+        },
+        {
+          "client_id": "999980991848-24futqkt4eg1n5mi9n55ni3iqkl1b7np.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkqabpJp8TqqgmvJdkqSQERLO0TYGoDGY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999980991848-24futqkt4eg1n5mi9n55ni3iqkl1b7np.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

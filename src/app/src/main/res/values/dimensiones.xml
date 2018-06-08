@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top">10dp</dimen>
+    <dimen name="paddingH">15dp</dimen>
+    <dimen name="titulo">28dp</dimen>
+    <dimen name="formularios">17dp</dimen>
+
+
+    <dimen name="editText">320dp</dimen>
+    <dimen name="editTop">10dp</dimen>
+
+    <dimen name="venta">16dp</dimen>
+
+    <dimen name="pseudo">25dp</dimen>
+    <dimen name="pseudoMargin">10dp</dimen>
+</resources>

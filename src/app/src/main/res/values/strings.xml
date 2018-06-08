@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Purificadora</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nuevoC">Nuevo cliente</string>
+    <string name="nombre">Nombre del cliente</string>
+    <string name="telefono">Teléfono del cliente</string>
+    <string name="direccion">Domicilio del cliente</string>
+    <string name="guardar">Guardar cliente</string>
+    <string name="cancelar">Cancelar</string>
+
+
+    <string name="escanear">Escanear código QR</string>
+    <string name="vender">Realizar nueva venta</string>
+</resources>

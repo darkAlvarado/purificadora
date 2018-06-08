@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="@dimen/formularios"
+                    android:text="Recibo de compra" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="4dp">
+
+                <TextView
+                    android:id="@+id/fecha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="Fecha y hora"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/green"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/nombre_cliente"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cliente: José Atila Alvarado Alvarado"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingVertical="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f2f2f2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Precio "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/venta"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Cantidad"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/venta"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Subtotal"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/venta"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/precio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="---"
+                    android:textColor="@color/saved"
+                    android:textSize="@dimen/formularios" />
+
+                <TextView
+                    android:id="@+id/cantidad"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="---"
+                    android:textColor="@color/saved"
+                    android:textSize="@dimen/formularios" />
+
+                <TextView
+                    android:id="@+id/subtotal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="---"
+                    android:textColor="@color/saved"
+                    android:textSize="@dimen/formularios" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:paddingVertical="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@color/tx25"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text="Descuento preferencial"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/descuento"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="$ 0.0"
+                    android:textColor="@color/saved"
+                    android:textSize="@dimen/formularios" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/info_descuento"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingRight="15dp"
+                    android:text="Informacion de descuento preferencial"
+                    android:textSize="@dimen/formularios" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingVertical="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="@color/saved"
+                    android:textSize="@dimen/formularios" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/tx1"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text="Total"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/formularios" />
+
+                <TextView
+                    android:id="@+id/total"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="$ 0.0"
+                    android:textColor="@color/saved"
+                    android:textSize="@dimen/formularios" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text=""/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text="Importe"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/formularios" />
+
+                <TextView
+                    android:id="@+id/importe"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="$ 0.0"
+                    android:textColor="@color/saved"
+                    android:textSize="@dimen/formularios" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text="Cambio"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/formularios" />
+
+                <TextView
+                    android:id="@+id/cambio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="$ 0.0"
+                    android:textColor="@color/saved"
+                    android:textSize="@dimen/formularios" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:background="@color/tx2"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:paddingVertical="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text="Adeudo"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/formularios" />
+
+                <TextView
+                    android:id="@+id/adeudo"
+                    android:paddingVertical="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="$ 0.0"
+                    android:background="@color/orange"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/formularios" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

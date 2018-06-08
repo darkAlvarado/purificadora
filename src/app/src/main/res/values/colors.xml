@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fondo">#ffffff</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="green">#45bc62</color>
+    <color name="colorDark">#2f333f</color>
+    <color name="blueLight">#49acd5</color>
+    <color name="orange">#eaad43</color>
+
+    <color name="gris">#bcccd2</color>
+
+    <color name="saved">#8b4528</color>
+    <color name="saved2">#b46851</color>
+
+    <color name="cliente">#50c5ff</color>
+    <color name="cliente2">#4fbef5</color>
+    <color name="pseudo">#ffffff</color>
+
+
+    <color name="tx1">#008080</color>
+    <color name="tx2">#ff2a2a</color>
+    <color name="tx3">#803300</color>
+    <color name="tx4">#483e37</color>
+    <color name="tx5">#5aa02c</color>
+    <color name="tx8">#256080</color>
+    <color name="tx10">#005544</color>
+    <color name="tx12">#00aa88</color>
+    <color name="tx15">#660080</color>
+    <color name="tx16">#cc00ff</color>
+    <color name="tx18">#c83771</color>
+    <color name="tx20">#916f7c</color>
+    <color name="tx22">#008080</color>
+    <color name="tx24">#b95109</color>
+    <color name="tx25">#2c94a0</color>
+</resources>
